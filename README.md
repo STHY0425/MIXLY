@@ -4,6 +4,7 @@
 **首先我们关于视觉的代码位于主代码的上方该区域，以函数作用分成了两个部分，分别是功能函数与任务函数**
 <img width="1006" height="498" alt="image" src="https://github.com/user-attachments/assets/639b41c6-2691-4b53-9a4a-3fe8402d0c27" />
 **那我们先从任务函数讲起,然后再逐个解释任务函数里面的功能函数**
+
 1.二维码识别函数
 <img width="1013" height="1159" alt="image" src="https://github.com/user-attachments/assets/7475bb38-7221-4013-92de-8aa34a29cb60" />
 第一个函数块调用了失能陀螺仪函数，如果存在失能那必然存在使能，但是这个是使用I2C通信才需要使用的，如果你使用串口通信就不需要太注意。
@@ -36,6 +37,7 @@
 同样该函数返回的是ret，如果没有运动成功可以进入函数块输出信息进行调试。
 
 ##提出具体需求，以任务作为分点，会存在许多重复的需求，重复就会简单提及并跳过，**以下图片均为示例**
+
 1.二维码识别
 -需要有开启二维码识别函数；
 <img width="225" height="32" alt="image" src="https://github.com/user-attachments/assets/05b37273-7975-4e7b-8304-5faf109a5030" />
