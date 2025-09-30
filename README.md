@@ -9,7 +9,7 @@
 
 **那我们先从任务函数讲起,然后再逐个解释任务函数里面的功能函数**
 
-1.二维码识别函数
+**1.二维码识别函数**
 
 <img width="1013" height="1159" alt="image" src="https://github.com/user-attachments/assets/7475bb38-7221-4013-92de-8aa34a29cb60" />
 
@@ -26,7 +26,7 @@
 
 该函数返回一个ret变量，ret初值是0，如果扫描到二维码并获取到数据，ret会被置1，那么我们可以通过这个标志位判断是否进入状态机循环进行车子的挪动。
 
-2.三色识别函数
+**2.三色识别函数**
 
 <img width="616" height="1131" alt="image" src="https://github.com/user-attachments/assets/aa2b366a-e8b6-4d24-9b13-fef3042c5fd5" />
 
@@ -43,7 +43,7 @@
 如上图，我们如果识别到了绿色，就设置标志位为2，后期状态机就可以简单判断这个标志位来测试有没有正确识别颜色了。
 同理，最后我们返回一个ret变量，在完全没有看到信息返回的时候移动一段距离直到探测到。
 
-3.对准中心框函数（这个大致了解就好）
+**3.对准中心框函数**（这个大致了解就好）
 
 <img width="1376" height="924" alt="image" src="https://github.com/user-attachments/assets/df5d5669-b8cf-4cc6-9ed8-3e43b80e19a1" />
 
