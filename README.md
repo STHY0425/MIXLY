@@ -60,7 +60,7 @@
 
 ## 提出具体需求，以任务作为分点，会存在许多重复的需求，重复就会简单提及并跳过，**以下图片均为示例**
 
-1.二维码识别
+**1.二维码识别**
 -需要有开启二维码识别函数；
 
 <img width="225" height="32" alt="image" src="https://github.com/user-attachments/assets/05b37273-7975-4e7b-8304-5faf109a5030" />
@@ -74,7 +74,7 @@
 <img width="672" height="121" alt="image" src="https://github.com/user-attachments/assets/55662581-95e6-4d7e-a57b-0248043991d9" />
 
 
-2.第一个任务色块识别
+**2.第一个任务色块识别**
 -需要返回xy坐标信息函数；
 
 <img width="490" height="78" alt="image" src="https://github.com/user-attachments/assets/17e85131-9557-45ab-a64e-681f39fd2fde" />
@@ -89,9 +89,9 @@
 <img width="381" height="93" alt="image" src="https://github.com/user-attachments/assets/3d2fa9c1-da81-4f9c-8571-0de849970b06" />
 
 
-3.第二个任务标靶识别同上且逻辑相同
+**3.第二个任务标靶识别同上且逻辑相同**
 
-4.第三个任务PLA物块识别同上且逻辑相同
+**4.第三个任务PLA物块识别同上且逻辑相同**
 
 
 ## 写在最后
