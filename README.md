@@ -116,6 +116,10 @@
 
 <img width="536" height="113" alt="image" src="https://github.com/user-attachments/assets/1e9d1c6f-4cf6-4eea-a7f9-58c6f012444f" />
 
-这个的意思就是给串口1发送123的字符串，注意这里的打印就是发送的意思，会有些误导请注意。
+这个的意思就是给串口1发送123的字符串。
+注意以上图片的打印就是发送的意思，会有些误导请注意，**同样可以完成发送信息的操作**。
+
+<img width="581" height="180" alt="image" src="https://github.com/user-attachments/assets/6f19c552-391d-4686-99ec-fa0a427f549d" />
+
 
 
